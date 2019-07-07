@@ -27,7 +27,12 @@ public class App implements OnClickListener
         // 3. lambda
     	OnClickListener lambda = button -> { System.out.println(button.getName()+" Clicked! - lambda"); } ;
     	myButton.setOnClickListener(lambda);
-	
+
+
+
+
+
+
     	
         // click the button
     	myButton.click();
